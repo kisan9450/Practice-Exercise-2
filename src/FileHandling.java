@@ -26,7 +26,7 @@ public class FileHandling {
             fr.close();
             FileWriter fw=null;
 
-            fw = new FileWriter("FileDemo.txt");
+            fw = new FileWriter("/home/cgi/Desktop/P.E.2/src/FileDemo.txt");
             fw.write(fileData);
             fw.close();
             System.out.println("\n" + count);
